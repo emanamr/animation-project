@@ -1,27 +1,40 @@
-body, ul {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  font-family: sans-serif;
-  color: #676767;
-  font-weight: 300;
-}
+
 .text{
-  padding-left: 8%;
+  padding-left: 20%;
   animation-name: mymove;
   animation-duration: 1s;
 
 }
-/*a{visibility: hidden;}*/
+ul{
+  padding-top: 100px;
+}
+li{
+  margin-top: 30px;
+  text-decoration: none;
+  border-style: groove;
+
+}
+
+.side1{  background-color:pink;
+  position: fixed;
+  height: 100%;
+  width:13%;
+
+}
+#link{padding-left: 5px;
+
+margin-top: 20px;}
+
+
 
 .side{
+  padding-left: 3%;
   background-color:pink;
   position: fixed;
   height: 100%;
-  width: 6%;
-  animation-name: mymove;
+  width: 12%;
+ animation-name: mymove;
   animation-duration: 1s;
 }
 
@@ -29,6 +42,6 @@ body {
 @keyframes mymove1{
   50%{width:300px;}
 }
-@keyframes mymove{50%{
-  margin-left: 50px;
+@keyframes mymove{30%{
+  margin-left: 200px;
 }}
