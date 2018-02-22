@@ -1,11 +1,12 @@
 
 
 .text{
-  padding-left: 20%;
+  padding-left: 15%;
   width=80%;
-  animation-name: mymove;
-  animation-duration: 1s;
-animation-play-state: running;
+
+ animation-name: mymove;
+  animation-duration: 2s;
+animation-play-state:running;
 }
 ul{
   padding-top: 100px;
@@ -24,9 +25,12 @@ li{
 .side1{  background-color:pink;
   position: fixed;
   height: 100%;
-  width:180px;
+  width:150px;
+
 
 }
+
+
 
 .menu{
   margin-top: 20%;
@@ -35,6 +39,7 @@ li{
  float: right;
  cursor: pointer;
  color: black;
+
 }
 
 
@@ -43,14 +48,126 @@ li{
   background-color:pink;
   position: fixed;
   height: 100%;
-  width: 200px;
+  width: 100px;
+
  animation-name: mymove;
- animation-duration: 1s;
+ animation-duration:2s;
  animation-play-state:running;
+
 }
+
+
 
 
 
 @keyframes mymove{30%{
   margin-left: 150px;
+}}
+
+/*.text{
+
+  padding-left: 20%;
+
+  width=80%;
+
+  animation-name: mymove;
+
+  animation-duration: 1s;
+
+animation-play-state: running;
+
+}
+
+ul{
+
+  padding-top: 100px;
+
+}
+
+li{
+
+  margin-top: 30px;
+
+  text-decoration: none;
+
+  border:1px  ridge black;
+
+  width: 70px;
+
+  font-style: oblique;
+
+  font-size: 25px;
+
+  font-weight: bold black;
+
+
+
+}
+
+
+
+.side1{  background-color:pink;
+
+  position: fixed;
+
+  height: 100%;
+
+  width:180px;
+
+
+
+}
+
+
+
+.menu{
+
+  margin-top: 20%;
+
+ margin-right: 20%;
+
+ font-size: 20px;
+
+ float: right;
+
+ cursor: pointer;
+
+ color: black;
+
+}
+
+
+
+
+
+.side{
+
+  padding-left: 3%;
+
+  background-color:pink;
+
+  position: fixed;
+
+  height: 100%;
+
+  width: 200px;
+
+ animation-name: mymove;
+
+ animation-duration: 1s;
+
+ animation-play-state:running;
+
+}
+*/
+
+
+
+
+
+
+@keyframes mymove{30%{
+
+  margin-left: 150px;
+
 }}

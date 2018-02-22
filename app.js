@@ -1,17 +1,29 @@
-<script>
+
+
+
 
  var leftMenu=document.getElementById('left-menu');
+
  var midMenu=document.getElementById('mid-menu');
+
  var main=document.getElementById('main');
+
   function show(){
- if((midMenu.style.width)+(leftMenu.style.width)>="250"){
-   (midMenu.style.width)+(leftMenu.style.width)=="200";
-   main.style.width==80%;
-   midMenu.style.animation.play.state=paused;
+
+ if( midMenu.style.animation.play.state=paused){
+
+   midMenu.style.animation.play.state=runing;
+
+   main.style.animation.play.state=runing;
  }
- else{
-  midMenu.style.animation.play.state=running;
+
+ else{if(midMenu.style.animation.play.state=runing){
+
+  midMenu.style.animation.play.state=paused;
+
+ main.style.animation.play.state=paused;
 
  }
+
 }
-<script/>
+}
